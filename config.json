@@ -1,0 +1,124 @@
+{
+  "logFile": "/home/ubuntu/minigrabber/grabber.log",
+  "dbFile": "/home/ubuntu/minigrabber/grabber.sqlite",
+  "tmpDir": "/home/ubuntu/minigrabber/tmp",
+  "imgPath": "/home/ubuntu/minigrabber/img",
+  "debug": true,
+  "phpTimeLimit": 25,
+  "useTransactionModel": true,
+  "countUpdateFeeds": 2,
+
+  "http": {
+    "method": 0,
+    "timeout": 30,
+    "stopTime": 3,
+    "redirectOn": true,
+    "gzipOn": true,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "proxy": {
+      "on": false,
+      "host": "",
+      "listOn": false,
+      "list": "",
+      "type": 0,
+      "userPwd": ""
+    }
+  },
+
+  "wordpress": {
+    "url": "https://cryptoobzor.art/",
+    "user": "Crypto_Obzor",
+    "appPassword": "9nwE HWmf zcbc DMq8 28P6"
+  },
+
+  "translate": {
+    "google": { "key": "" },
+    "deepl": { "key": "" },
+    "yandex": { "oauth": "", "folderId": "" },
+    "lingvanex": { "key": "" }
+  },
+
+  "synonymize": {
+    "on": false,
+    "mode": "local",
+    "dict": "/home/USER/minigrabber/synonyms.json",
+    "endpoint": "",
+    "apiKey": ""
+  },
+
+  "feeds": [
+    {
+      "name": "BeInCrypto Новости",
+      "published": 1,
+      "interval": 3600,
+      "type": "rss",
+      "url": "https://ru.beincrypto.com/feed/",
+      "rss_encoding": "UTF-8",
+      "html_encoding": "UTF-8",
+      "title": "<title>(.*?)</title>",
+      "text_start": "<div class=\"gutenberg-content entry-content\"",
+      "text_end": "<div class=\"CardWrapper\"",
+      "params": {
+        "rss_textmod": 0,
+        "max_items": 3,
+        "start_link": 0,
+        "start_top": 0,
+        "skip_error_urls": 1,
+        "titleUniqueOn": 1,
+        "strip_tags": 1,
+        "allowed_tags": "<p><br><b><strong><i><em><a><ul><ol><li><h2><h3><blockquote><img><figure><figcaption><picture><source>",
+        "min_text_size": 300,
+        "filter_words_on": 0,
+        "filter_words_where": "text",
+        "filter_words_save": 0,
+        "filter_words_list": "",
+        "user_replace_on": 1,
+        "replace": {
+          "text": [
+            { "search": "~<div class=\"post-toc\".*?</div>~is", "replace": "", "limit": -1 },
+            { "search": "~<script.*?</script>~is", "replace": "", "limit": -1 }
+          ]
+        },
+        "image_save": 1,
+        "image_resize": 1,
+        "img_text_crop": 0,
+        "text_pic_width": 800,
+        "text_pic_height": 0,
+        "text_pic_quality": 85,
+        "image_name_from_title_on": 1,
+        "image_alt_make_on": 1,
+        "image_alt_replace": 1,
+        "image_alt_from_attr_title": 1,
+        "image_class_name_on": 1,
+        "image_class_name_custom": "wp-block-image",
+        "image_attr_delete": "srcset,sizes,loading,data-src,data-lazy-src,class",
+        "imageHtmlCode": "<img src=\"%PATH%\" %ADDS% %ATTR% />",
+        "max_images": 5,
+        "limit_image_output_on": 0,
+        "image_nextpage_quan": 0,
+        "post_thumb_on": 1,
+        "delFirstPic": 0,
+        "no_save_without_pic": 0,
+        "post_tags_on": 1,
+        "tags_mode": 0,
+        "tagsScrape": "<meta property=\"article:tag\" content=\"(.*?)\"",
+        "tagsScrapeSeparator": ",",
+        "tagsScrapeCount": 5,
+        "post_date_on": 1,
+        "post_date_scrape": "<time[^>]*datetime=\"(.*?)\"",
+        "post_date_type": "runtime",
+        "template_full_text": "%FULL_TEXT%<p><small>Источник: <a href=\"%SOURCE%\" rel=\"nofollow noopener\" target=\"_blank\">BeInCrypto</a></small></p>",
+        "post_status": "draft",
+        "catid": [],
+        "postSlugOn": 1,
+        "aliasSize": 80,
+        "translate": { "on": 0, "provider": "google", "lang": "en|ru", "split": 4000 },
+        "translate2": { "on": 0, "provider": "deepl", "lang": "en|ru", "split": 4000 },
+        "nosave_if_not_translate": 0,
+        "synonymizeEnabled": 0,
+        "minSynonymPercentage": 30,
+        "ignoreRecordOnSynonymizeError": 0
+      }
+    }
+  ]
+}

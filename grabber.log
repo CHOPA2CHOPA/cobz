@@ -1,0 +1,40 @@
+[09:44:49] === Лента: Тестовая лента RSS ===
+[09:44:50] HTTP FAIL https://example.com/feed.xml [404] 
+[09:44:50] Ссылок для импорта нет
+[09:44:50] Лента 'Тестовая лента RSS': опубликовано 0, 1 c
+[09:59:19] === Лента: BeInCrypto Новости ===
+[09:59:24] Ссылок для импорта: 3
+[09:59:28] → https://ru.beincrypto.com/lichnye-dannye-kazahstancev-bez-soglasiya/
+[09:59:28] Короткий текст — пропуск
+[09:59:31] → https://ru.beincrypto.com/hoskinson-amd-neoclouds-nvidia-crisis/
+[09:59:31] Короткий текст — пропуск
+[09:59:35] → https://ru.beincrypto.com/tether-gold-kpmg-audit-america-gold-fund/
+[09:59:35] Короткий текст — пропуск
+[09:59:35] Лента 'BeInCrypto Новости': опубликовано 0, 16 c
+[10:11:10] === Лента: BeInCrypto Новости ===
+[10:11:15] Ссылок для импорта: 3
+[10:11:20] Текст не найден: https://ru.beincrypto.com/tether-gold-kpmg-audit-america-gold-fund/
+[10:11:23] Текст не найден: https://ru.beincrypto.com/spacex-tesla-merger-shareholders-december/
+[10:11:27] Текст не найден: https://ru.beincrypto.com/inostrannye-akcii-uzbekistan-kvalificirovannye-investory/
+[10:11:27] Лента 'BeInCrypto Новости': опубликовано 0, 17 c
+[10:16:03] === Лента: BeInCrypto Новости ===
+[10:16:08] Ссылок для импорта: 3
+[10:16:12] → https://ru.beincrypto.com/tether-gold-kpmg-audit-america-gold-fund/
+[10:16:12] TEST: Tether Gold прошел аудит KPMG — каждый токен обеспечен унцией золота (460 симв., картинок: 0)
+[10:16:15] → https://ru.beincrypto.com/spacex-tesla-merger-shareholders-december/
+[10:16:15] TEST: Объединение SpaceX и Tesla может состояться в ближайшее время — что получат акционеры (829 симв., картинок: 0)
+[10:16:19] → https://ru.beincrypto.com/inostrannye-akcii-uzbekistan-kvalificirovannye-investory/
+[10:16:19] TEST: Мировые акции для Узбекистана: доступ откроют не всем инвесторам (906 симв., картинок: 0)
+[10:16:19] Лента 'BeInCrypto Новости': опубликовано 0, 16 c
+[10:34:41] === Лента: BeInCrypto Новости ===
+[10:34:45] Ссылок для импорта: 3
+[10:34:49] Текст не найден: https://ru.beincrypto.com/inostrannye-akcii-uzbekistan-kvalificirovannye-investory/
+[10:34:53] Текст не найден: https://ru.beincrypto.com/jpmorgan-microstrategy-msci-exit/
+[10:34:57] Текст не найден: https://ru.beincrypto.com/ekspolicejskie-vymogatelstvo-kriptovalyuty-prigovor/
+[10:34:57] Лента 'BeInCrypto Новости': опубликовано 0, 16 c
+[10:35:20] === Лента: BeInCrypto Новости ===
+[10:35:25] Ссылок для импорта: 3
+[10:35:28] Текст не найден: https://ru.beincrypto.com/inostrannye-akcii-uzbekistan-kvalificirovannye-investory/
+[10:35:32] Текст не найден: https://ru.beincrypto.com/jpmorgan-microstrategy-msci-exit/
+[10:35:36] Текст не найден: https://ru.beincrypto.com/ekspolicejskie-vymogatelstvo-kriptovalyuty-prigovor/
+[10:35:36] Лента 'BeInCrypto Новости': опубликовано 0, 16 c
